@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Reference Source >> Projects Geek>> HTML Shopping Website Projects -->
+    <title>Shop New to Sale | List | NET-A-PORTER</title>
+    <link rel="icon" type="image/ico" href="/images/favicon.ico" sizes="16x16">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+    <link rel="script" href="C:\Users\win10\Documents\HTML Projects(Pending)\Shopping_Website\scripts\user.jsx">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+<style>
+*{
+    margin: 0;
+}
+
+#d1{
+    height:35px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+}
+
+#h1{
+float: left;
+padding: 8px 10px 8px 60px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#h2{
+    float: right;
+    padding: 8px 40px 8px 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header p a{
+    color: white;
+}
+
+#d2{
+    background-color: black;
+    padding: 0px 10px  10px 30px;
+    height: 100px;
+}
+
+.bi-person{
+padding: 5px 30px 70px 30px;
+}
+
+.bi-person, .bi-globe2{
+    font-size: 17px;
+}
+
+#d2 button{
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+#btn{
+  font-size: 14px;  
+}
+
+
+header i,span{
+    color: white;
+}
+
+#d2 h3{
+    color: white; 
+    display: inline;
+    margin-left: 380px;
+    margin-right: 450px;
+    font-size: 29px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#d3 a{
+    color: white;
+    padding-right: 20px;
+}
+
+aside{
+    width: 330px;
+    padding: 40px 0px 400px 50px;
+    background-color:white;
+    margin-right: 60px;
+}
+
+aside h4{
+    line-height: normal;
+}
+
+#p1{
+    font-size: 15px;
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.h4{
+    display: inline;
+}
+
+aside{
+float: left;
+height: max-content;
+}
+
+aside i{
+    float: right;
+}
+
+aside .b1
+{
+    background-color: white;
+    border: none;
+    float: right;
+}
+
+
+.b1:hover{
+    cursor: pointer;
+}
+
+/* .right{
+ margin-top: 90px;   
+} */
+/* 
+.right{
+ float: right;   
+ display: block;
+} */
+
+#s1{
+    margin-top: 2%;
+    margin-bottom: 0%;
+    margin-right: 3.5%;
+    float: right;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 8px 8px;
+    font-size: medium;
+    color: grey;
+}
+
+/* main .img1{
+    margin-top: 5%;
+    margin-right:15px ;
+    display: inline-block;
+}
+
+#img1{
+    margin-top: 1%;
+    margin-right: 20px;
+    display: inline-block;
+} */
+
+.img3{
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+/* #div1{
+display: inline;
+width: 5%;
+margin-left: 400px;
+margin-right: 30px;
+} */
+
+/* in order to display items in columns, use items in flexbox container  */
+
+/* display flex helps to display all the items in flex layout */
+
+.flexbox-container{
+display: flex;
+}
+
+.flex-item1{
+    padding: 0%;
+    width:24%;
+    margin-left:1px;
+    margin-right: 9.1%;
+    display: inline;
+}
+
+.flex-item2, .flex-item3{
+    padding: 0%;
+    margin-left: 0%;
+    margin-right: 9.1%;
+    width:24%;
+}
+
+.flexbox1{
+    display: flex;
+    margin-top: 5%;
+}
+
+.flexitem1{
+    margin-right: 5%;
+}
+
+.flexbox-container1{
+    display: flex;
+}
+
+.flex_item1{
+    padding: 0%;
+    margin-left: 0%;
+    margin-right: 2%;
+    width:25%;
+}
+
+.flexbox3{
+    display:flex;
+    background-color: rgb(232, 230, 230);
+    padding: 50px;
+    height: 90%;
+}
+
+.flexitem_1{
+    width:500px;
+}
+
+#btn2:hover{
+    cursor: pointer;
+    color: black;
+    border-color: black;
+}
+
+.bi-youtube .bi-facebook, .bi-twitter, .bi-instagram{
+    color: black;
+    margin-right: 30px;
+}
+
+.flexitem_2{
+    margin-left: 350px;
+    color:  black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.flexbox4{
+    background-color: white;
+    display: flex;
+    margin: 40px;
+}
+
+.flexbox4 ul a,li{
+    text-decoration: none;
+    list-style-type: none;
+    color: grey;
+    
+}
+
+.flexitem41 li {
+font-size: 13px;
+padding-left: 0px;
+line-height: 3;
+}
+
+.li1:hover{
+color: black;
+}
+
+/* .flexitem41{
+    margin-left: 30px;
+} */
+
+.flexitem41 p{
+    line-height: 2;
+    font-size: 13px;
+    font-weight:bold;
+    margin-left: 39px;
+    width:150px;
+}
+
+.flexitem42{
+    color: grey;
+    margin-left: 300px;
+}
+
+.flexitem42 p{
+    line-height: 2;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 39px;
+    width:150px;
+}
+
+.flexitem42 li{
+    font-size: 13px;
+    line-height: 3;
+}
+
+.flexitem42 li:hover{
+    color: black;
+}
+
+.flexitem43{
+    color: gray;
+    margin-left: 300px;
+}
+
+footer{
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+}
+
+.form{
+display: none;
+position: absolute;
+background-color: white;
+min-width: 100px;
+color: black;
+z-index: 1;
+}
+
+#user:hover .form{
+ display:block; 
+}
+
+.span1{
+cursor: pointer;
+text-decoration: none;
+color: black;
+}
+
+.bag1{
+    background-color: blue;
+    padding: 20px 10px;
+    width: 300px;
+    height: 400px;
+    visibility: hidden ;
+}
+
+</style>
+</head>
+<body>
+    <div>
+        <header>
+            <div id="d1">
+            <p id="h1">New arrivals, now dropping 5 days a week - <a href="https://www.net-a-porter.com/en-au/shop/new-in?cm_sp=homepage-_-auto-_-category-NewArrivals-ServiceRibbon-Default-Global-WebApp-_-13-10-22"> discover now</a></p>
+            <p id="h2">Menswear on <a href="https://www.mrporter.com/en-in/"> MR PORTER</a></p>   
+            </div>
+            
+            <div id="d2"> <br>
+
+            <button><i id="user" class="bi bi-person" style="cursor:pointer;"></i></button>
+            <div class="form">
+                <br> <p style="text-align:center;">MY ACCOUNT</p> <br>
+                <hr> <br> <br>
+                <form action="">
+                    <label for="email">Email Address</label> <br> <input type="email" name="email" id="mail"> <br>
+                    <label for="password">Password </label> <br> <input type="password" name="password" id="pwd"> <br> <br>
+                    <input type="submit" value="Sign In" style="background-color:black; color:white ;">
+                </form> <br>
+                <a href="reset" style="color: black;">Forgot Password?</a> <br> <hr> <br>
+                <p> <b>Don't have an account?</b> <a href="#register" style="color: black;">Register now</a></p>
+            </div>
+
+            <button><i class="bi bi-globe2"></i></button>
+            <button id="btn">English</button>
+            <h3>NET-A-PORTER</h3>
+            <i class="bi bi-search" style="margin-right:10px ;"></i> 
+            <span style="margin-right: 20px;">Search</span>
+            <i class="bi bi-star" style="margin-right: 20px;"></i>
+            
+            <!-- <div class="bag"> -->
+            <i class="bi bi-bag" style="margin-right:0px;"></i>
+            <!-- <div class="bag1">
+                <i class="bi bi-bag"></i> <br>
+                <h4>Your Shopping Bag is empty</h4> <br>
+                <a href="#shop" style="color:gray; padding-bottom: 5px;">Shop  What's New</a>
+            </div>
+            </div> -->
+
+            <br><br>
+
+            <div id="d3">
+            <a  href="https://www.net-a-porter.com/en-au/shop/new-in" class="span1" style="padding-left: 240px;">New In</a>
+            <a  href="https://www.net-a-porter.com/en-au/campaigns/shop-by/" class="span1"> Shop By</a>
+            <a href="https://www.net-a-porter.com/en-au/shop/azdesigners" class="span1">Designers</a>
+            <a href="https://www.net-a-porter.com/en-au/shop/clothing" class="span1">Clothing</a>
+            <a href="https://www.net-a-porter.com/en-au/shop/shoes" class="span1">Shoes</a>
+            <a href="https://www.net-a-porter.com/en-au/shop/bags" class="span1">Bags</a>
+            <a href="https://www.net-a-porter.com/en-au/shop/jewelry-and-watches" class="span1">Jewellery & Watches</a>
+            <a href="https://www.net-a-porter.com/en-au/shop/accessories" class="span1">Accessories</a>
+            <a href="https://www.net-a-porter.com/en-au/shop/beauty" class="span1">Beauty</a>
+            <a href="https://www.net-a-porter.com/en-au/shop/home" class="span1">Home & Gifts</a>
+            <a href="https://www.net-a-porter.com/en-au/content/people-and-planet/" class="span1">People & Planet</a>
+            </div>
+
+            </div>
+        </header>
+
+         <br> <br>
+        <h1 style="font-weight: 50; text-align: center;">Shop New To Sale</h1>
+        <br> <hr style="color:antiquewhite; margin:0px 50px;">
+
+        <aside>
+            <p style="color:gray; font-family: 'Courier New', Courier, monospace; font-weight: 30; line-height: 2.5; "> <b> 44 Results</b></p>
+            <br> <hr> <br>
+            <h4 class="h4">CATEGORY</h4>
+            <button class="b1"><i class="bi bi-chevron-down"></i></button>
+            <!-- <select name="category" id="s1">
+                <option value="All">All</option>
+                <option value="Beauty">Beauty</option>
+                <option value="Clothing">Clothing</option>
+                <option value="Home">Home</option>
+                <option value="Shoes">Shoes</option>
+            </select>
+ -->
+            <!-- <button class="b1"><i class="bi bi-chevron-down"></i></button> -->
+            <p id="p1">All</p> <br> <hr> <br>
+            <h4 class="h4">COLOR</h4>
+            <button class="b1"><i class="bi bi-chevron-down"></i></button>
+            <p id="p1">All</p> <br> <hr> <br>
+            <h4 class="h4">DESIGNER</h4>
+            <button class="b1"><i class="bi bi-chevron-down"></i></button>
+            <p id="p1">All</p> <br> <hr> <br>
+            <h4 class="h4">CLOTHING SIZE</h4> 
+            <button class="b1"><i class="bi bi-chevron-down"></i></button>
+            <p id="p1">All</p> <br> <hr> <br>
+            <h4 class="h4">SHOE SIZE</h4>
+            <button class="b1"><i class="bi bi-chevron-down"></i></button>
+            <p id="p1">All</p> <br> <hr> <br>
+        </aside>
+   
+        <main class="right">
+
+            <select name="options" id="s1">
+                <option value="sort">Sort By</option>
+                <option value="recommend">Recommended</option>
+                <option value="new">New In</option>
+                <option value="high">Price High to Low</option>
+                <option value="low">Price Low to High</option>
+            </select> <br>
+
+            <div class="flexbox1">
+            <picture class="flexitem1">
+            <img class="img1" src="C:\Users\win10\Documents\HTML Projects(Pending)\Shopping_Website\images\Img1.png" alt="Canal White Slides" height="450" width="290">
+            <!-- <figcaption style="display:inline ;">
+                <br>
+                <h4>THE ROW</h4>
+                <p>Canal Velvet Slides</p> <br> <br>
+                <p>$1,020</p>
+            </figcaption> -->
+            </picture>
+           
+            <picture class="flexitem1">
+            <img class="img1" src="C:\Users\win10\Documents\HTML Projects(Pending)\Shopping_Website\images\Img2.png" alt="Canal Velvet Slides" height="450" width="290">
+            </picture>
+
+            <picture class="flexitem1">
+            <img  id="img1" src="C:\Users\win10\Documents\HTML Projects(Pending)\Shopping_Website\images\Img3.png" alt="Earthenware Sculpture" height="450" width="290">
+            </picture>
+
+            </div> <br> <br>
+
+            <div class="flexbox-container">
+            <div class="flex-item1">
+            <h4>THE ROW</h4>
+            <p>Canal Velvet Slides</p> <br> <br>
+            <p>$1,020</p>
+            </div>
+            
+            <div class="flex-item2">
+            <h4>THE ROW</h4>
+            <p>Canal Velvet Slides</p> <br> <br>
+            <p>$1,020</p>
+            </div>
+
+            <div class="flex-item3">
+            <h4>AMEN</h4>
+            <p>Luminous Beings 01: Hikari Earthenware sculpture</p> <br> <br>
+            <p>$4,118</p>
+            </div>
+
+            </div>
+        
+            <img class="img3" src="C:\Users\win10\Documents\HTML Projects(Pending)\Shopping_Website\images\Img4.png" alt="La Bouche Rogue" height="450" width="290">
+            <img class="img3" src="C:\Users\win10\Documents\HTML Projects(Pending)\Shopping_Website\images\Img5.png" alt="La Bouche Rogue" height="450" width="290">
+            <img class="img3" src="C:\Users\win10\Documents\HTML Projects(Pending)\Shopping_Website\images\Img6.png" alt="La Bouche Rogue" height="450" width="290">
+            <br> <br> <br>
+            <div class="flexbox-container1">
+                <div class="flex_item1" style="margin-left:440px ;">
+                <h4>LA BOUCHE ROGUE</h4>
+                <p>Les Ombres Eyeshadow Palete Refill-Aral</p> <br> <br>
+                <p> <del>$63.61</del> 30% OFF</p>
+                <p style="color: red;">$45</p>
+                </div>
+                
+                <div class="flex_item1" style="margin-right: 1%;">
+                <h4>LA BOUCHE ROGUE</h4>
+                <p>Garcon seude Loafers</p> <br> <br>
+                <p> <del>$79.03</del> 50% OFF</p>
+                <p style="color: red;">$40</p>
+                </div>
+    
+                <div class="flex_item1">
+                <h4>LA BOUCHE ROGUE</h4>
+                <p>Ribbed cashmere sweater</p> <br> <br>
+                <p> <del>$79.25</del> 30% OFF</p>
+                <p style="color: red;">$56</p>
+                </div>
+            </div> <br> <br>
+
+            <button style="background-color:white; border-radius:90px; cursor:pointer; border-color:gray; margin-left: 780px;" > <i class="bi bi-chevron-bar-up" style="text-align: center; font-size:large;"></i></button>
+             <br> <br> <hr style="color:grey; margin: 10px 40px; border-top:solid grey 2px;"> <br>
+
+             <div style="color: gray;">
+             <i class="bi bi-chevron-bar-left" style="margin-left: 80px; margin-right:30px ;"></i> <i class="bi bi-chevron-left" style="margin-right:10px"></i> <p style="margin-right: 500px; display: inline;"> Previous</p>
+             <p style="display: inline; margin-right: 460px; margin-left: 40px;">Page 1 of 1</p>
+             <p style="display:inline;" style="margin-right:20px;">Next</p> <i class="bi bi-chevron-right" style="margin-right: 30px;"></i> <i class="bi bi-chevron-bar-right"></i>
+            </div>
+        </main> <br> <br>
+   
+        <footer>
+            <div class="flexbox3">
+           <div class="flexitem_1">
+            <h3>10% OFF WHEN YOU SIGN UP</h3> <br>
+            <p style="font-size: 15px;">Stay in the loop with the latest style news and get an exclusive 10% off when you subscribe to our emails. Learn more about our <a href="https://www.net-a-porter.com/en-au/content/help/privacy-policy/" target="_blank" style="color:black">Privacy Policy</a> here</p>
+            <br> <form action="">
+                <input type="email" placeholder="your@address.com" style="padding:10px; width: 350px; font-size:medium;">
+                <button id="btn2" type="submit" style="padding: 10px; width:100px; font-size:medium; cursor: pointer; border-color:lightgrey; color:lightgray">Submit</button>
+            </form>
+            <br> <br>  <br> <br>
+            <div class="socials">
+            <a href="https://www.youtube.com/user/netaporter?sub_confirmation=1"> <i class="bi bi-youtube" style="color:black; margin-right: 30px;"></i></a>
+            <a href="https://www.facebook.com/netaporter"><i class="bi bi-facebook" style="color: black; margin-right:30px ;"></i></a> 
+            <a href="https://twitter.com/NETAPORTER"><i class="bi bi-twitter"></i></a> 
+            <a href="https://www.instagram.com/netaporter/"><i class="bi bi-instagram"></i></a>
+            </div>
+            </div>
+
+           <div class="flexitem_2">
+             <h5 style="line-height: 3;"> CALL US</h5> 
+             <p>+61 1800 638 680  <li style="display: inline;">customercare@net-a-porter.com</li></p> <br> <br>
+             <h5>LOCATION & LANGUAGE</h5> <br>
+            <p> English</p>
+           </div> 
+        </div>
+
+        <div class="flexbox4" style="margin-bottom:0%;">
+            <div class="flexitem41">
+                <p style="color:grey;"> CUSTOMER CARE</p>
+                <ul>
+                    <a href="#order"><li class="li1"> Track an Order</li></a>
+                    <a href="#return"><li class="li1">Create a Return</li></a>
+                    <a href="#FAQ"><li class="li1">FAQs</li></a>
+                    <a href="#contact"><li class="li1">Conatct Us</li></a>
+                    <a href="#payment"><li class="li1">Payment</li></a>
+                    <a href="#privacy"><li class="li1">Privacy Policy</li></a>
+                    <a href="#cookies"><li class="li1">Cookie Policy</li></a>
+                </ul>
+            </div>
+
+            <div class="flexitem42">
+                <p>ABOUT US</p>
+                <ul>
+                    <a href="#about"><li>About NET-A-PORTER</li></a>
+                    <a href="#people"><li>People & Planet</li></a>
+                    <a href="#loyalty"><li>Our Loyalty Program</li></a>
+                    <a href="#ads"><li>Advertising</li></a>
+                    <a href="#affiliates"><li>Affiliates</li></a>
+                    <a href="#careers"><li>Careers</li></a>
+                    <a href="#apps"><li>NET-A-PORTER Apps</li></a>
+                </ul>
+            </div>
+
+            <div class="flexitem43">
+                <p style="font-size: 19px; color: black;">MR PORTER</p> <br>
+                <p style="font-size: 15px;">Shop from over 500 of the world's finest luxury designer brands & be dressed for any occasion</p> <br>
+                <a href="https://www.mrporter.com/en-au/" style="text-decoration: none; color:gray;">Visit MRPORTERM.COM</a>
+            </div>
+
+        </div>
+
+        </footer>
+    </div>
+    <script>
+        // function Click(){
+        //  document.getElementById.   
+        // };
+    </script>
+</body>
+</html>
